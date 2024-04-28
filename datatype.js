@@ -11,8 +11,15 @@ let state; //undefined
 
 let krinna  = true; // boolean = true
 
+const id = Symbol('222');
+const anotherId = Symbol('123')
+console.log(id == anotherId);
 
-/* all data type -- premitive datatype  
+
+const bigNumber = 234214010204n // know as bigInt
+
+
+/* all data type -- premitive datatype  7
 
 number = 2 to  2*power 53
 
@@ -32,3 +39,27 @@ symbol = unique
 
 // object 
 console.log(typeof String)
+
+
+
+// non primitive (reference number) -> 
+// -> Array , Object , Function (3 )
+
+// array
+const hero = ["krishna", "my papa", "hanuman jii", "shiv jii", "ram jii"] //  array
+
+// function
+
+let myobj = {
+
+    name:"krishna",
+    age: 21,
+
+}
+
+const myfunction = function() {
+
+    console.log("Hello word");
+}
+
+console.log(typeof bigNumber)
