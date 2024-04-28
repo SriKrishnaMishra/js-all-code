@@ -63,3 +63,8 @@ const myfunction = function() {
 }
 
 console.log(typeof bigNumber)
+
+
+// stack (primitive data type) // copy value
+// heap (non primitive data type) // refernce value
+
