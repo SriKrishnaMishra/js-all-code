@@ -39,3 +39,28 @@ const myword = [1, 3, 4, 2, 5, 6]
 
 const newcount = myword.map((num) =>{ return num + 10})
 console.log(newcount);
+
+//////////////////////// map    ///////////
+
+const word = [1, 2, 3, 4, 5, 6]
+
+const newWord = word 
+                .map((num) => num * 10)
+                .map((num) => num + 1)
+
+console.log(newWord);
+
+
+
+///////// reduce /////////
+
+const digit = [1, 2, 3]
+
+// const myTotal = digit.reduce(function(acc, currval) {
+
+//     console.log(`acc: ${acc} and currval: ${currval}`);
+//     return acc + currval;
+// }, 0) 
+
+const myTotal = digit.reduce((acc, curr) => acc + curr, 0)
+console.log(myTotal);
